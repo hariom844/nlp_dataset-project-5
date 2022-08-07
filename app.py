@@ -44,7 +44,7 @@ def predict():
     else:
       result="Negative"
             
-    return render_template('index.html', prediction_text='Iphone Review is : {}'.format(result))
+    return render_template('index.html', prediction_text='Text Review is : {}'.format(result))
 
 if __name__ == "__main__":
     app.run(debug =True)
